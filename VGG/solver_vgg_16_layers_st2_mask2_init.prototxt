@@ -1,0 +1,22 @@
+net: "proto/conv_mask/vgg_train_16_layers_st2_mask2_init.prototxt"
+test_initialization: false
+test_iter: 1000
+test_interval: 5000
+base_lr: 0.01
+#lr_policy: "step"
+lr_policy: "multistep"
+gamma: 0.1
+#step_lr: 0.001
+#stepvalue:1000
+stepvalue:150000
+stepvalue:300000
+stepvalue:450000
+#stepsize: 100000
+display: 20
+max_iter: 600000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 50000
+snapshot_prefix: "proto/conv_mask/snapshot/vgg_16layers_st2_mask2_init"
+solver_mode: GPU
+average_loss: 20

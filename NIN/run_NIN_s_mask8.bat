@@ -1,0 +1,4 @@
+rem "caffe_run2/caffe_shared_bug_re_5.exe" train --solver=proto/conv_mask_cifar/solver_NIN.prototxt --gpu=all --log_name=NIN_mask --log_dir=proto/conv_mask_cifar/snapshot/log/
+rem "caffe_run/caffe_shared_bug_re_5_2.exe" train --solver=proto/conv_mask_cifar/solver_NIN_s_mask5.prototxt --gpu=7 --log_name=NIN_mask_s_mask5 --log_dirs=proto/conv_mask_cifar/snapshot/log/
+rem "caffe_run/caffe_shared_bug_re_full2.exe" train --solver=proto/conv_mask_cifar/solver_NIN_s_mask5.prototxt --gpu=7 --snapshot=proto/conv_mask_cifar/snapshot/cifar10_nin_s_mask5_iter_1000.solverstate --log_name=NIN_mask_s_mask5 --log_dirs=proto/conv_mask_cifar/snapshot/log/
+"caffe2/Build\x64\Release/caffe5.exe" train --solver=proto/spatial_relu/solver_NIN_s_mask8.prototxt --gpu=1 --log_name=NIN_mask_s_mask8 --log_dirs=proto/spatial_relu/snapshot/log/

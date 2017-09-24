@@ -1,0 +1,3 @@
+"caffe_run2/caffe_shared_bug_re_5.exe" train --solver=proto/conv_mask/solver_alex_mask_256_o3.prototxt --gpu=0,1 --log_name=alex_mask_256_o3 --log_dir=proto/conv_mask/snapshot/log/
+"caffe_run2/caffe_shared_bug_re_full.exe" train --solver=proto/conv_mask/solver_alex_mask_256_o3.prototxt --snapshot=proto/conv_mask/snapshot/alex_mask_256_o3_iter_2000.solverstate --gpu=0,1 --log_name=alex_mask_256_o3 --log_dir=proto/conv_mask/snapshot/log/
+rem "caffe_run2/caffe_shared_bug_re_full.exe" train --solver=proto/conv_mask/solver_alex_mask_256_c1.prototxt --snapshot=proto/conv_mask/snapshot/alex_mask_256_c1_iter_50000.solverstate --gpu=0,1 --log_name=alex_mask_256_c1 --log_dir=proto/conv_mask/snapshot/log/

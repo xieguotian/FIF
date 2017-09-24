@@ -1,0 +1,2 @@
+rem "caffe_run2/caffe_shared_bug_re_5.exe" train --solver=proto/conv_mask/solver_alex_mask_256.prototxt --gpu=all --log_name=alex_mask_256_2 --log_dir=proto/conv_mask/snapshot/log/
+"caffe_run2/caffe_shared_bug_re_full.exe" train --solver=proto/conv_mask/solver_alex_mask_256.prototxt --gpu=all --snapshot=proto/conv_mask/snapshot/alex_mask_256_2_iter_500.solverstate --log_name=alex_mask_256_2 --log_dir=proto/conv_mask/snapshot/log/
